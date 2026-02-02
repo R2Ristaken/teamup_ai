@@ -6,3 +6,9 @@ asyncpg
 qdrant-client
 pydantic-settings
 alembic
+redis
+arq
+httpx
+openai
+langchain
+langchain-community
