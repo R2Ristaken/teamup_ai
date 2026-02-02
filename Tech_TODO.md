@@ -14,14 +14,19 @@ Based on the **PRD**, **Design Document**, and **Tech Stack**.
 - [ ] **Backend Infrastructure**:
     - [x] Setup Node.js/FastAPI backend.
     - [x] Configure PostgreSQL Database (Supabase/Neon).
+    - [x] Configure PostgreSQL Database (Supabase/Neon).
     - [x] Configure Qdrant/Pinecone Vector DB.
+    - [x] **Infrastructure**: Configure Redis (Caching & Job Queue).
+    - [x] **Infrastructure**: Setup Async Workers (Arq/Celery).
 - [ ] **Authentication**:
     - [ ] Implement Clerk or NextAuth.
     - [ ] Create Protected Routes Middleware.
 - [ ] **Core Features**:
     - [ ] Build **Business Setup Wizard** (Frontend Forms).
     - [ ] Build **Onboarding API** (Save business profile).
+    - [ ] Build **Onboarding API** (Save business profile).
     - [ ] Implement **Knowledge Base Engine** (Text chunking + Embedding generation).
+    - [ ] Set up **LLM Router** (Model Cascading: Llama 3 <-> GPT-4o).
 
 ### Phase 2: Sales Agent (Week 2)
 - [ ] **WhatsApp Integration**:
@@ -54,6 +59,11 @@ Based on the **PRD**, **Design Document**, and **Tech Stack**.
 - [ ] **Deployment**:
     - [ ] Deploy Frontend to Vercel/Netlify.
     - [ ] Deploy Backend to Railway/Render.
+
+- [ ] **Reliability & Scale**:
+    - [ ] Implement Rate Limiting (Token Bucket).
+    - [ ] Configure Semantic Caching for LLM responses.
+    - [ ] Setup Dead Letter Queues (DLQ) for failed jobs.
 
 ---
 
