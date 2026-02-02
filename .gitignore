@@ -1,0 +1,18 @@
+# General
+.DS_Store
+.env
+
+# Frontend
+node_modules/
+.next/
+out/
+build/
+dist/
+.vscode/
+
+# Backend
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/

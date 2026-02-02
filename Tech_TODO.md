@@ -7,14 +7,14 @@ Based on the **PRD**, **Design Document**, and **Tech Stack**.
 ## 💻 Tech Todo (Implementation & Engineering)
 
 ### Phase 1: Foundation & Setup (Week 1)
-- [ ] **Repo Initialization**:
-    - [ ] Initialize Git repository.
-    - [ ] Create Next.js app (`npx create-next-app@latest`) with Tailwind CSS.
-    - [ ] Configure `index.css` with Design Tokens (Pastel colors, fonts).
+- [x] **Repo Initialization**:
+    - [x] Initialize Git repository.
+    - [x] Create Next.js app (`npx create-next-app@latest`) with Tailwind CSS.
+    - [x] Configure `index.css` with Design Tokens (Pastel colors, fonts).
 - [ ] **Backend Infrastructure**:
-    - [ ] Setup Node.js/FastAPI backend.
-    - [ ] Configure PostgreSQL Database (Supabase/Neon).
-    - [ ] Configure Qdrant/Pinecone Vector DB.
+    - [x] Setup Node.js/FastAPI backend.
+    - [x] Configure PostgreSQL Database (Supabase/Neon).
+    - [x] Configure Qdrant/Pinecone Vector DB.
 - [ ] **Authentication**:
     - [ ] Implement Clerk or NextAuth.
     - [ ] Create Protected Routes Middleware.
